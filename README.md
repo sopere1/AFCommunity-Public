@@ -1,1 +1,3 @@
 # AFCommunity
+## NOTE: This repo is under active development.
+### AFCommunity is a web application (React + Flask) for Arroyos and Foothills Conservancy (AFC) that manages processing for non-UWIN camera transects and supports miscellaneous citizen science capabilities. The primary display of the minimum viable product is an interactive map of Los Angeles that users can append markers (cameras, wildlife sightings, and customized geographic areas) to. To share these observations, researchers can define a social group, or community, of which members can view all markers added to that particular group.
