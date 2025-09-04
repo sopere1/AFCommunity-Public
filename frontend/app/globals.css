@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/fonts/whitney-medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/fonts/whitney-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  --font-whitney: 'Whitney', sans-serif;
+}
+
+@layer utilities {
+  .font-whitney {
+    font-family: var(--font-whitney);
+  }
+}
